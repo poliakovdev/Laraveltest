@@ -8,7 +8,7 @@ use Validator;
 
 class PagesEditController extends Controller
 {
-    //
+    
     public function execute(Page $page, Request $request){
     	
     	if($request->isMethod('delete')){
